@@ -21,7 +21,7 @@ public class Menu {
 	        switch (opciones) {
 	          case "Monedas": {
 
-	            // validar que el valor ingresado sea un #
+	          
 	            String input = JOptionPane.showInputDialog("Ingrese la cantidad de dinero que deseas convertir");
 
 	            while (!esNumero(input)) {
@@ -62,7 +62,6 @@ public class Menu {
 	    }
 	  }
 
-	  // VALIDO QUE VALORES SEAN NÚMEROS
 	  private static boolean esNumero(String num) {
 	    try {
 	      Double.parseDouble(num);
